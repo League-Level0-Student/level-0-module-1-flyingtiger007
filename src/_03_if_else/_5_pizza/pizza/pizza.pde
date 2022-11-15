@@ -13,16 +13,12 @@ fill (#FFE708);
 ellipse(300, 300, 370, 370);
 pepperoni = loadImage("pepperoni.png");
 mushroom = loadImage("mushroom.png");
-olive = loadImage("olice.png");
-image(pepperoni,200,200);
-image(pepperoni,150,200);
-image(pepperoni,264,147);
-image(pepperoni,121,245);
-image(pepperoni,189,178);
-image(pepperoni,289,212);
-image(pepperoni,213,340);
-image(pepperoni,400,276);
-image(pepperoni,230,400);
+if (mousePressed && (mouseButton == RIGHT)) {
+image(pepperoni,400,332);
+image(pepperoni,287,192);
+image(pepperoni,214,232);
+image(pepperoni,398,297);
+image(pepperoni,237,332);
 image(mushroom,264,218);
 image(mushroom,365,258);
 image(mushroom,276,398);
@@ -30,14 +26,5 @@ image(mushroom,152,423);
 image(mushroom,357,214);
 image(mushroom,198,167);
 image(mushroom,254,387);
-
-
-
-
-
-
-
-
-
-
+}
 }
